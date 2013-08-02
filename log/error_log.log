@@ -1,0 +1,412 @@
+[24-Jul-2013 11:25:54] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:25:54] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:25:54] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:25:56] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 11:25:56] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 29
+[24-Jul-2013 11:26:00] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:26:00] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:26:00] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:26:01] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 11:26:01] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 29
+[24-Jul-2013 11:26:03] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:26:03] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:26:03] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:26:03] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 11:26:03] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 29
+[24-Jul-2013 11:26:05] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:26:05] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:26:05] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:26:08] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 11:26:08] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 29
+[24-Jul-2013 11:26:09] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 11:26:09] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 11:26:09] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 11:26:09] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 11:26:09] PHP Notice:  Use of undefined constant AW_SETTLEMENT_TYPE_EM - assumed 'AW_SETTLEMENT_TYPE_EM' in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\include\ConfirmActionManager.php on line 128
+[24-Jul-2013 11:26:09] PHP Notice:  Use of undefined constant AW_SETTLEMENT_TYPE_BANK - assumed 'AW_SETTLEMENT_TYPE_BANK' in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\include\ConfirmActionManager.php on line 128
+[24-Jul-2013 11:26:10] PHP Notice:  Use of undefined constant commodityDetails - assumed 'commodityDetails' in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\include\PurchaseData.php on line 545
+[24-Jul-2013 11:26:10] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 11:26:10] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 707
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072411261051ef9db20051a&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1400&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=a97cfef65e7b1e4f957a7acf39c8bda46c7909960542c93d8084478731ec315c75c987f2a8647d10e886b1b5d164583d2b6009c837edcbd33b9b1e22406cde3d&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php
+[24-Jul-2013 11:26:10] ConfirmActionManager::sendPOST() INFO 返信:MERCHANT_ENCRYPTION_KEY=K6257
+[24-Jul-2013 11:26:10] ConfirmActionManager::sendPOST() INFO 返信:BROWSER_ENCRYPTION_KEY=K7036
+[24-Jul-2013 11:26:10] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 11:26:10] ConfirmActionManager::sendPOST() INFO キーが取得できた
+[24-Jul-2013 11:26:10] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信完了
+[24-Jul-2013 11:26:10] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 取引ID：2013072411261051ef9db20051a
+[24-Jul-2013 11:26:10] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 マーチャント暗号鍵：K6257
+[24-Jul-2013 11:26:10] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 セッションID：g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 11:26:10] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO AWへの遷移画面へ
+[24-Jul-2013 11:26:13] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 11:26:13] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 29
+[24-Jul-2013 11:26:14] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:26:14] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:26:14] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:45:50] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 11:45:50] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 29
+[24-Jul-2013 11:51:55] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\if_purchase.php on line 61
+[24-Jul-2013 11:51:55] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\if_purchase.php on line 67
+[24-Jul-2013 11:51:55] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\if_purchase.php on line 73
+[24-Jul-2013 11:55:11] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:55:11] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:55:11] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:55:13] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 11:55:13] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 29
+[24-Jul-2013 11:55:14] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:55:14] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:55:14] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:55:46] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 11:55:46] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 29
+[24-Jul-2013 11:55:56] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:55:56] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:55:56] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:56:00] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 11:56:00] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 29
+[24-Jul-2013 11:57:05] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:57:05] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:57:05] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:57:07] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:57:07] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:57:07] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 11:57:46] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 58
+[24-Jul-2013 11:57:46] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 64
+[24-Jul-2013 11:57:46] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 70
+[24-Jul-2013 12:00:41] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 59
+[24-Jul-2013 12:00:41] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 65
+[24-Jul-2013 12:00:41] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 71
+[24-Jul-2013 12:00:41] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 59
+[24-Jul-2013 12:00:41] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 65
+[24-Jul-2013 12:00:41] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 71
+[24-Jul-2013 12:00:43] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 12:00:43] PHP Notice:  Undefined index: ENTRY.NAME1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 32
+[24-Jul-2013 12:00:46] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 59
+[24-Jul-2013 12:00:46] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 65
+[24-Jul-2013 12:00:46] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 71
+[24-Jul-2013 12:01:07] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 59
+[24-Jul-2013 12:01:07] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 65
+[24-Jul-2013 12:01:07] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 71
+[24-Jul-2013 12:01:08] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 12:01:10] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 59
+[24-Jul-2013 12:01:10] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 65
+[24-Jul-2013 12:01:10] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 71
+[24-Jul-2013 12:01:10] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 12:01:11] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 59
+[24-Jul-2013 12:01:11] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 65
+[24-Jul-2013 12:01:11] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 71
+[24-Jul-2013 12:01:13] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 12:01:15] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:01:15] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:01:15] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:01:15] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:01:15] PHP Notice:  Use of undefined constant AW_SETTLEMENT_TYPE_EM - assumed 'AW_SETTLEMENT_TYPE_EM' in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\include\ConfirmActionManager.php on line 128
+[24-Jul-2013 12:01:15] PHP Notice:  Use of undefined constant AW_SETTLEMENT_TYPE_BANK - assumed 'AW_SETTLEMENT_TYPE_BANK' in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\include\ConfirmActionManager.php on line 128
+[24-Jul-2013 12:01:15] PHP Notice:  Use of undefined constant commodityDetails - assumed 'commodityDetails' in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\include\PurchaseData.php on line 545
+[24-Jul-2013 12:01:15] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:01:15] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 707
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412011551efa5eb7e2e3&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=60f9dab678fa3df974d0d475ff72c61de4b56c3f2c4d1fe08cbbf5fa57ceb9d8b935c689e2c7954bb48051396f7bfcbd7aeb90417d6d6f500c12dd3d4a522460&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php
+[24-Jul-2013 12:01:17] ConfirmActionManager::sendPOST() INFO 返信:MERCHANT_ENCRYPTION_KEY=K9728
+[24-Jul-2013 12:01:17] ConfirmActionManager::sendPOST() INFO 返信:BROWSER_ENCRYPTION_KEY=K5899
+[24-Jul-2013 12:01:17] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:01:17] ConfirmActionManager::sendPOST() INFO キーが取得できた
+[24-Jul-2013 12:01:17] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信完了
+[24-Jul-2013 12:01:17] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 取引ID：2013072412011551efa5eb7e2e3
+[24-Jul-2013 12:01:17] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 マーチャント暗号鍵：K9728
+[24-Jul-2013 12:01:17] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 セッションID：g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:01:17] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO AWへの遷移画面へ
+[24-Jul-2013 12:03:33] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 59
+[24-Jul-2013 12:03:33] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 65
+[24-Jul-2013 12:03:33] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 71
+[24-Jul-2013 12:03:34] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 12:03:35] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:03:35] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:03:35] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:03:35] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:03:35] PHP Notice:  Use of undefined constant AW_SETTLEMENT_TYPE_EM - assumed 'AW_SETTLEMENT_TYPE_EM' in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\include\ConfirmActionManager.php on line 128
+[24-Jul-2013 12:03:35] PHP Notice:  Use of undefined constant AW_SETTLEMENT_TYPE_BANK - assumed 'AW_SETTLEMENT_TYPE_BANK' in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\include\ConfirmActionManager.php on line 128
+[24-Jul-2013 12:03:35] PHP Notice:  Use of undefined constant commodityDetails - assumed 'commodityDetails' in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\include\PurchaseData.php on line 545
+[24-Jul-2013 12:03:35] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:03:35] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 707
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412033551efa677aec4e&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=89146b9af1071dca572bc73e64ef8df197a705af25541d84e4556b8bb600e79ee11684ff092613464dbc0a3d9b7f89c0500ae39abbc20ce6eadc75a8b49bebed&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php
+[24-Jul-2013 12:03:36] ConfirmActionManager::sendPOST() INFO 返信:MERCHANT_ENCRYPTION_KEY=K4147
+[24-Jul-2013 12:03:36] ConfirmActionManager::sendPOST() INFO 返信:BROWSER_ENCRYPTION_KEY=K6183
+[24-Jul-2013 12:03:36] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:03:36] ConfirmActionManager::sendPOST() INFO キーが取得できた
+[24-Jul-2013 12:03:36] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信完了
+[24-Jul-2013 12:03:36] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 取引ID：2013072412033551efa677aec4e
+[24-Jul-2013 12:03:36] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 マーチャント暗号鍵：K4147
+[24-Jul-2013 12:03:36] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 セッションID：g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:03:36] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO AWへの遷移画面へ
+[24-Jul-2013 12:04:36] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 59
+[24-Jul-2013 12:04:36] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 65
+[24-Jul-2013 12:04:36] PHP Notice:  Undefined index: PURCHASE.ITEM in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\purchase.php on line 71
+[24-Jul-2013 12:04:37] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 12:04:38] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:04:38] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:04:38] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:04:38] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:04:38] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:04:38] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 994
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412043851efa6b6e123f&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=93c6847413db87ef90e72cf1dde9d9717ce1c0967b92e324f7dc280522a178179bf2177c80ebff4afff55a7163c7a852c8343c13bf034c696151f8e01f739073&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:04:39] ConfirmActionManager::sendPOST() INFO 返信:ERROR_MESSAGE=Amount of money and product information are not corresponding .
+[24-Jul-2013 12:04:39] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:04:39] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:04:39] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信失敗
+[24-Jul-2013 12:04:39] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報入力画面へ
+[24-Jul-2013 12:04:39] PHP Notice:  Undefined index: ENTRY.SUMMARY in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\include_cart_table.php on line 8
+[24-Jul-2013 12:07:16] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:07:16] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:07:16] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:07:16] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:07:16] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:07:16] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 994
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412071651efa7542e5cb&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=3e1c3a6c64bb5490893ed81668d51acc83abb255ed3a54458b5abf91f744b0e3b3de41ed436c7270950319eea00fc03be7c76e6da20656d0b6397fb0bc4b9b8b&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:07:16] ConfirmActionManager::sendPOST() INFO 返信:ERROR_MESSAGE=Amount of money and product information are not corresponding .
+[24-Jul-2013 12:07:16] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:07:16] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:07:16] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信失敗
+[24-Jul-2013 12:07:16] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報入力画面へ
+[24-Jul-2013 12:09:49] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:09:49] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:09:49] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:09:49] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:09:49] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:09:49] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 993
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412094951efa7ed3fc55&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=500&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=e98e74eddd7c14dfbdcf98f3a551bd4464a1c0655c5d2c395bea33e2363f538863576bf93a1e7c840379ef0ed8e0767bc5badde418da7912fdb3f44a8b1a2d0a&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:09:49] ConfirmActionManager::sendPOST() INFO 返信:ERROR_MESSAGE=Amount of money and product information are not corresponding .
+[24-Jul-2013 12:09:49] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:09:49] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:09:49] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信失敗
+[24-Jul-2013 12:09:49] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報入力画面へ
+[24-Jul-2013 12:09:59] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:09:59] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:09:59] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:09:59] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:09:59] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:09:59] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 994
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412095951efa7f7aa789&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=3ed71433f0726020a4f83696e1ff1568f834a2025785b3ff3352789937c686b011b405ca8da3601f82dec52c628894628cac7dba7aec879576f61299d26477f4&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:09:59] ConfirmActionManager::sendPOST() INFO 返信:ERROR_MESSAGE=Amount of money and product information are not corresponding .
+[24-Jul-2013 12:09:59] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:09:59] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:10:00] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信失敗
+[24-Jul-2013 12:10:00] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報入力画面へ
+[24-Jul-2013 12:10:03] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:10:03] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:10:03] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:10:03] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:10:03] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:10:03] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 994
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412100351efa7fbe23cf&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=4b8388ea05e26ef2f62ffd46c8b2726794765c06188ff923bb57b081ce0ac378a2690368cd748973b2835e04ca46959aa96fae989aa445a5cc5eb7dafcb07493&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:10:04] ConfirmActionManager::sendPOST() INFO 返信:ERROR_MESSAGE=Amount of money and product information are not corresponding .
+[24-Jul-2013 12:10:04] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:10:04] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信失敗
+[24-Jul-2013 12:10:04] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報入力画面へ
+[24-Jul-2013 12:10:18] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:10:18] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:10:18] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:10:18] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:10:18] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:10:18] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 994
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412101851efa80adef12&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=6f2e974a4cbd042bfa14f1dbb65574bea3c91e4536c5386426ebe17b11565aa0fcf1229c9fd9fa43b85989f1b0b66682ae15bb5328b5ad9432c6b3be725a3d54&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:10:18] ConfirmActionManager::sendPOST() INFO 返信:ERROR_MESSAGE=Amount of money and product information are not corresponding .
+[24-Jul-2013 12:10:19] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:10:19] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信失敗
+[24-Jul-2013 12:10:19] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報入力画面へ
+[24-Jul-2013 12:20:01] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO ###################500
+[24-Jul-2013 12:20:01] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:20:01] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:20:01] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:20:01] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:20:01] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:20:01] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 994
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412200151efaa517ed00&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=fbc0bda6eac416cf2355a882e3efcc50383d000ff9be0cb72f5a7c5e1dc203db35b78c293bbf6dc91abe238503ccbc2536af49724021b57629193322f11cb046&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:20:01] ConfirmActionManager::sendPOST() INFO 返信:ERROR_MESSAGE=Amount of money and product information are not corresponding .
+[24-Jul-2013 12:20:01] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:20:01] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信失敗
+[24-Jul-2013 12:20:01] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報入力画面へ
+[24-Jul-2013 12:22:35] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\card\CardConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:22:35] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:22:35] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:22:35] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:22:35] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 990
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=01&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412223551efaaebd1ae9&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=500&CARD_CAPTURE_FLAG=1&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=&MERCHANTHASH=d90e7ecda7b3febcba26dfcd82698300d924eb759c355cd1111001000e34f0a7a32ac08543afd4bde7e72043e82c80318f7e9f63da3fd7c268cbaf373bf1679b&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:22:36] ConfirmActionManager::sendPOST() INFO 返信:MERCHANT_ENCRYPTION_KEY=K7752
+[24-Jul-2013 12:22:36] ConfirmActionManager::sendPOST() INFO 返信:BROWSER_ENCRYPTION_KEY=K2437
+[24-Jul-2013 12:22:36] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:22:36] ConfirmActionManager::sendPOST() INFO キーが取得できた
+[24-Jul-2013 12:22:36] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\card\CardConfirmAction.php INFO 個人情報送信完了
+[24-Jul-2013 12:22:36] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 取引ID：2013072412223551efaaebd1ae9
+[24-Jul-2013 12:22:36] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 マーチャント暗号鍵：K7752
+[24-Jul-2013 12:22:36] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 セッションID：g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:22:36] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\card\CardConfirmAction.php INFO AWへの遷移画面へ
+[24-Jul-2013 12:22:41] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:22:41] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:22:41] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:22:41] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:22:41] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:22:41] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 997
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412224151efaaf177f9d&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=500&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=5edc38772f977082b52ca6fe7515aafc82aaf678cf030e8d440cda0960c140ebca38c78cd9bfc2bcbf3d36018bba5f8d6adb4028cbfb39c4c729f3b584a73a21&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:22:41] ConfirmActionManager::sendPOST() INFO 返信:MERCHANT_ENCRYPTION_KEY=K0389
+[24-Jul-2013 12:22:41] ConfirmActionManager::sendPOST() INFO 返信:BROWSER_ENCRYPTION_KEY=K4551
+[24-Jul-2013 12:22:41] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:22:41] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:22:41] ConfirmActionManager::sendPOST() INFO キーが取得できた
+[24-Jul-2013 12:22:41] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信完了
+[24-Jul-2013 12:22:41] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 取引ID：2013072412224151efaaf177f9d
+[24-Jul-2013 12:22:41] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 マーチャント暗号鍵：K0389
+[24-Jul-2013 12:22:42] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 セッションID：g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:22:42] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO AWへの遷移画面へ
+[24-Jul-2013 12:23:10] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 支払期限：20130922
+[24-Jul-2013 12:23:10] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信
+[24-Jul-2013 12:23:11] ConfirmActionManager::execute() INFO 送信処理開始
+[24-Jul-2013 12:23:11] ConfirmActionManager::setCommodityDetail() INFO 購入商品情報クラスをセット
+[24-Jul-2013 12:23:11] ConfirmActionManager::sendPOST() INFO HTTP POST送信処理開始
+[24-Jul-2013 12:23:11] HttpRequest::sendRequest() INFO 送信内容：POST /web/commodityRegist.action HTTP/1.1
+Host: 10.112.61.185
+User-Agent: HttpRequest Powered by 5.3.8
+Connection: close
+Accept-Language: ja
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 997
+
+MAILADDRESS=&NAME1=&NAME2=&KANA1=&KANA2=&ZIP_CODE=&ADDRESS1=&ADDRESS2=&ADDRESS3=&TELEPHONE_NO=&BIRTHDAY=&SEX=&SETTLEMENT_TYPE=02&SETTLEMENT_SUB_TYPE=&MERCHANT_ID=A300000000000010000340&ORDER_ID=2013072412231151efab0f1499c&SESSION_ID=g23ahlp6pbvfgo6ur49uf21ek1&AMOUNT=1900&SHIPPING_AMOUNT=500&CARD_CAPTURE_FLAG=&DDD_ENABLE_FLAG=0&TIMELIMIT_OF_PAYMENT=20130922&MERCHANTHASH=0ab0e2c728d575ebc170fb3467eae2ae9462913db1b8bc954354fc15e52d66fc6ecb8c787bc138363fad0180d83381b888ca83863737d893d88fad22f061bb80&FINISH_PAYMENT_RETURN_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionBrowser.php&FINISH_PAYMENT_ACCESS_URL=http%3A%2F%2F10.112.61.185%3A8088%2FAirWebPHP%2Fsample%2FDoPostActionVTW.php&COMMODITY_ID=001&COMMODITY_ID=002&COMMODITY_ID=003&COMMODITY_UNIT=100&COMMODITY_UNIT=200&COMMODITY_UNIT=300&COMMODITY_NUM=1&COMMODITY_NUM=2&COMMODITY_NUM=3&COMMODITY_NAME=Mineral+water&COMMODITY_NAME=Ionized+water&COMMODITY_NAME=Electrolyzed+water&JAN_CODE=J01&JAN_CODE=J02&JAN_CODE=J03
+[24-Jul-2013 12:23:11] ConfirmActionManager::sendPOST() INFO 返信:MERCHANT_ENCRYPTION_KEY=K8016
+[24-Jul-2013 12:23:11] ConfirmActionManager::sendPOST() INFO 返信:BROWSER_ENCRYPTION_KEY=K7539
+[24-Jul-2013 12:23:11] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:23:11] ConfirmActionManager::sendPOST() INFO 返信:
+[24-Jul-2013 12:23:11] ConfirmActionManager::sendPOST() INFO キーが取得できた
+[24-Jul-2013 12:23:11] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO 個人情報送信完了
+[24-Jul-2013 12:23:11] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 取引ID：2013072412231151efab0f1499c
+[24-Jul-2013 12:23:11] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 マーチャント暗号鍵：K8016
+[24-Jul-2013 12:23:11] ConfirmActionManager::setMerchantKey() INFO KeyBoxデータ登録 セッションID：g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:23:11] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\cvs\CvsConfirmAction.php INFO AWへの遷移画面へ
+[24-Jul-2013 12:23:26] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\DoPostActionVTW.php INFO 処理開始
+[24-Jul-2013 12:23:26] AWKeyValidate::resultCheck() INFO チェックOK
+[24-Jul-2013 12:23:26] AWKeyValidate::updateKeyBox() INFO keyBox->getMStatus()=success
+[24-Jul-2013 12:23:26] AWKeyValidate::updateKeyBox() INFO keyBox->getMErrMsg()=処理が成功しました。
+[24-Jul-2013 12:23:26] AWKeyValidate::updateKeyBox() INFO keyBox->getvResultCode()=D001H00100000000
+[24-Jul-2013 12:23:26] AWKeyValidate::updateKeyBox() INFO keyBox->getUserName()=
+[24-Jul-2013 12:23:26] AWKeyValidate::updateKeyBox() INFO keyBox->getUserNameKana()=
+[24-Jul-2013 12:23:26] AWKeyValidate::updateKeyBox() INFO keyBox->getMailAddress()=
+[24-Jul-2013 12:23:26] AWKeyValidate::updateKeyBox() INFO keyBox->getAddress()=
+[24-Jul-2013 12:23:26] AWKeyValidate::updateKeyBox() INFO keyBox->getSex()=
+[24-Jul-2013 12:23:26] AWKeyValidate::updateKeyBox() INFO keyBox->getTelephoneno()=
+[24-Jul-2013 12:23:27] AWKeyValidate::updateKeyBox() INFO keyBox->getZipcode()=
+[24-Jul-2013 12:23:27] AWKeyValidate::updateKeyBox() INFO keyBox->getBirthday()=
+[24-Jul-2013 12:23:27] AWKeyValidate::updateKeyBox() INFO キー更新完了
+[24-Jul-2013 12:23:27] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\DoPostActionVTW.php INFO チェックOK
+[24-Jul-2013 12:23:29] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\DoPostActionBrowser.php INFO 処理開始
+[24-Jul-2013 12:23:29] AWKeyValidate::resultCrossCheck() INFO keyBox->getMStatus()=success
+[24-Jul-2013 12:23:29] AWKeyValidate::resultCrossCheck() INFO keyBox->getvResultCode()=D001H00100000000
+[24-Jul-2013 12:23:29] AWKeyValidate::resultCrossCheck() INFO keyBox->getSessionId()=g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:23:29] AWKeyValidate::resultCrossCheck() INFO this->resultForm->getMStatus()=success
+[24-Jul-2013 12:23:29] AWKeyValidate::resultCrossCheck() INFO this->resultForm->getvResultCode()=D001H00100000000
+[24-Jul-2013 12:23:29] AWKeyValidate::resultCrossCheck() INFO this->resultForm->getSessionId()=g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:23:29] AWKeyValidate::resultCrossCheck() INFO 照合OK
+[24-Jul-2013 12:23:29] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\DoPostActionBrowser.php INFO チェックOK
+[24-Jul-2013 12:23:29] PHP Notice:  Undefined index: FINISH.TITLE in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\finish.php on line 9
+[24-Jul-2013 12:23:29] PHP Notice:  Undefined index: FINISH.HEADER in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\finish.php on line 23
+[24-Jul-2013 12:23:29] PHP Notice:  Undefined index: FINISH.MESSAGE1 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\finish.php on line 26
+[24-Jul-2013 12:23:29] PHP Notice:  Undefined index: FINISH.MESSAGE2 in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\finish.php on line 27
+[24-Jul-2013 12:23:29] PHP Notice:  Undefined index: FINISH.RETURN in C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\finish.php on line 29
+[24-Jul-2013 12:24:49] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\DoPostActionBrowser.php INFO 処理開始
+[24-Jul-2013 12:24:49] AWKeyValidate::resultCrossCheck() INFO keyBox->getMStatus()=success
+[24-Jul-2013 12:24:49] AWKeyValidate::resultCrossCheck() INFO keyBox->getvResultCode()=D001H00100000000
+[24-Jul-2013 12:24:49] AWKeyValidate::resultCrossCheck() INFO keyBox->getSessionId()=g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:24:49] AWKeyValidate::resultCrossCheck() INFO this->resultForm->getMStatus()=success
+[24-Jul-2013 12:24:49] AWKeyValidate::resultCrossCheck() INFO this->resultForm->getvResultCode()=D001H00100000000
+[24-Jul-2013 12:24:49] AWKeyValidate::resultCrossCheck() INFO this->resultForm->getSessionId()=g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:24:49] AWKeyValidate::resultCrossCheck() INFO 照合OK
+[24-Jul-2013 12:24:49] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\DoPostActionBrowser.php INFO チェックOK
+[24-Jul-2013 12:25:31] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\DoPostActionBrowser.php INFO 処理開始
+[24-Jul-2013 12:25:31] AWKeyValidate::resultCrossCheck() INFO keyBox->getMStatus()=success
+[24-Jul-2013 12:25:32] AWKeyValidate::resultCrossCheck() INFO keyBox->getvResultCode()=D001H00100000000
+[24-Jul-2013 12:25:32] AWKeyValidate::resultCrossCheck() INFO keyBox->getSessionId()=g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:25:32] AWKeyValidate::resultCrossCheck() INFO this->resultForm->getMStatus()=success
+[24-Jul-2013 12:25:32] AWKeyValidate::resultCrossCheck() INFO this->resultForm->getvResultCode()=D001H00100000000
+[24-Jul-2013 12:25:32] AWKeyValidate::resultCrossCheck() INFO this->resultForm->getSessionId()=g23ahlp6pbvfgo6ur49uf21ek1
+[24-Jul-2013 12:25:32] AWKeyValidate::resultCrossCheck() INFO 照合OK
+[24-Jul-2013 12:25:32] C:\Working\10_Projects\12_Veritrans Air\09_Sample\public\php\sample\DoPostActionBrowser.php INFO チェックOK
