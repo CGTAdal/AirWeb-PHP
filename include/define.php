@@ -36,14 +36,13 @@ define('AW_MESSAGE_RESOURCE_FILE', AW_INCLUDE_DIR . 'MessageResources.ini');
 /**
  * HTTP POST送信先URL
  */
-#define('AW_HTTP_POST_URI', 'https://air.veritrans.co.jp/web/commodityRegist.action');
-define('AW_HTTP_POST_URI', 'http://10.112.61.185:8089/web/commodityRegist.action');
+define('AW_HTTP_POST_URI', 'https://air.veritrans.co.jp/web/commodityRegist.action');
 
 /**
  * AW決済サイトURL
  */
-#define('PAYMENT_URL', 'https://air.veritrans.co.jp/web/paymentStart.action');
-define('PAYMENT_URL', 'http://10.112.61.185:8089/web/paymentStart.action');
+define('PAYMENT_URL', 'https://air.veritrans.co.jp/web/paymentStart.action');
+
 /*
  * 決済方式
 */
@@ -96,14 +95,14 @@ define('DUMMY_COMMODITY_JANCODE', 'DUMMY_JANCODE');
  * PHP5では未定義のため、追加
  */
 if (!defined('E_USER_DEBUG')) {
-	define('E_USER_DEBUG', 8192); // 0x2000
+    define('E_USER_DEBUG', 8192); // 0x2000
 }
 /**
  * E_USER_DEBUGを含めた全レベル
  * PHP5では未定義のため、追加
  */
 if (!defined('E_USER_DEBUGALL')) {
-	define('E_USER_DEBUGALL', 16383); // 0x3fff
+    define('E_USER_DEBUGALL', 16383); // 0x3fff
 }
 // 出力レベルの指定
 // 複数指定の場合は、E_USER_DEBUGALL
